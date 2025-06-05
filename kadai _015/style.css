@@ -2,10 +2,10 @@
   color: skyblue
 }
 .pink{
-  color: pink
+  color: rgb(255, 192, 203)
 }
 body {
-  font-family: "ＭＳ Ｐゴシック", sans-serif; 
+  font-family: "Arial", "Meiryo", sans-serif; 
   text-align: center;
 }
 html {
@@ -13,12 +13,12 @@ html {
 }
 
 h1 {
-   font-family: "Josefin Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 2em; 
-  letter-spacing: 2rem;
+  letter-spacing: 1.2em;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-bottom: 3px solid; rgb(115, 115, 114)
 }
-#basic strong{
-  font-weight: bold;
-}
+#basic p  {
+    font-weight: bold;
+  }
