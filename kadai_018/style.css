@@ -2,21 +2,23 @@
     width: 800px; 
     background-color: #dcc9f4; 
     margin: 20px auto; 
-    display: flex; 
+    text-align: center;
     justify-content: center; 
 }
 
 .top-child {
     width: 20%; 
     background-color: #ffd9df; 
-    margin: 20px 10px; 
-      text-align: center;
+    display: inline-block; 
+    margin: 0 ; 
+    
 }
 #middle {
     width: 800px; 
     height: 800px; 
     margin: 20px auto; 
     background-color: #ffd9df;
+    position: relative; 
   
 }
 
@@ -24,6 +26,7 @@
     width: 200px; 
     height: 200px; 
     background-color: #87ceeb; 
+    position: absolute;
 
 #middle-child01 {
   position: absolute;
@@ -46,23 +49,28 @@
 #bottom {
     width: 800px;
     height: 300px;
+    margin: 20px auto; 
     background-color: #87ceeb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    position: relative; 
 }
 
 #bottom-child01, #bottom-child02, #bottom-child03 {
     width: 400px;
     height: 100px;
     background-color: #e5dcf0;
-    margin: 10px 0;
+    position: absolute;
+    left: 0; 
 }
-#bottom-child02 {
-  left: 200px; 
+#bottom-child01 {
+  position: absolute;
+  left: 0;
 }
 
+#bottom-child02 {
+  position: absolute;
+  left: 200px; 
+}
 #bottom-child03 {
+  position: absolute;
   left: 400px; 
 }
