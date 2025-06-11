@@ -3,13 +3,14 @@
     background-color: #dcc9f4; 
     margin: 20px auto; 
     text-align: center;
-    justify-content: center; 
+
 }
 
 .top-child {
     width: 20%; 
     background-color: #ffd9df; 
     display: inline-block; 
+    box-sizing: border-box;
     margin: 0 ; 
     
 }
@@ -26,7 +27,8 @@
     width: 200px; 
     height: 200px; 
     background-color: #87ceeb; 
-    position: absolute;
+    position: relative;
+}
 
 #middle-child01 {
   position: absolute;
@@ -59,18 +61,21 @@
     height: 100px;
     background-color: #e5dcf0;
     position: absolute;
-    left: 0; 
-}
-#bottom-child01 {
-  position: absolute;
-  left: 0;
+   
 }
 
+#bottom-child01 {
+  position: absolute;
+
+}
 #bottom-child02 {
   position: absolute;
-  left: 200px; 
+  top: 100px;
+  left: 200px;
+
 }
 #bottom-child03 {
   position: absolute;
-  left: 400px; 
+  top: 200px;
+  left: 400px;
 }
